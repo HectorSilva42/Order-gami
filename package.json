@@ -1,23 +1,39 @@
 {
   "name": "order-gami",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "A website that sells origami",
   "main": "server.js",
   "scripts": {
     "test": "mocha"
+=======
+  "description": "a website you can order oragami",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+>>>>>>> bfe8ca35bc24eaa328c23bd90a63987569796d34
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HectorSilva42/Order-gami.git"
   },
+<<<<<<< HEAD
   "author": "Cesar Salazar and Hector Silva",
+=======
+  "author": "",
+>>>>>>> bfe8ca35bc24eaa328c23bd90a63987569796d34
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HectorSilva42/Order-gami/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/HectorSilva42/Order-gami#readme",
   "dependencies": {
     "ejs": "^2.4.1",
     "express": "^4.13.4"
   }
+=======
+  "homepage": "https://github.com/HectorSilva42/Order-gami#readme"
+>>>>>>> bfe8ca35bc24eaa328c23bd90a63987569796d34
 }
