@@ -1,10 +1,37 @@
 
 
-<nav class="header"> 
-<ul class="nav nav_bar"> 
-	<li>Origami of the Day</li>
-	<li>Origami-Library</li>
-	<li>Origami-Instructions</li>
-	<li>About us</li> 
-</ul>
-</nav> 
+<div class="container">
+<nav class="header row">
+	<div class="header col-md-6">
+	<ul class="list-inline">
+		<li class="item">Origami of the Day</li>
+		<li class="item">Origami-Library</li>
+		<li class="item">Origami-Instructions</li>
+		<li class="item">About us</li> 
+	</ul>
+	</div>
+	<div class="col-md-3">
+	<form class="search" action="/origami-library" method="POST">
+
+		<input type="text" id="search" placeholder="search origami-library" autocomplete="off">
+		<button type="submit" class="btn btn-default">
+			<span class="glyphicon glyphicon-search">
+		</button>
+	</form>
+	</div>
+	<div class="col-md-3">
+	<div class="login-signup">
+		<p> Create your account or Log in </p>
+		<center>
+			<button type="button" class="btn btn-default btn-md">
+			<span class="glyphicon glyphicon-log-in"></span>
+			</button>
+			<button type="button" class="btn btn-default btn-md">
+			<span class="glyphicon glyphicon-shopping-cart"></span>
+			</button>
+		</center>
+	</div>
+	</div>
+</nav>
+<div class="page-header"></div>
+</div>
